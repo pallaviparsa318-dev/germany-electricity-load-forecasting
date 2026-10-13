@@ -1,0 +1,23 @@
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+.venv/
+mlruns/
+artifacts/
+data/real_data.csv
+*.pyc
+# Real-data model artifacts
+artifacts_real/
+
+# Downloaded datasets
+data/*.csv
+
+# Environment variables and secrets
+.env
+.env.*
+.streamlit/secrets.toml
+
+# Additional temporary files
+mlartifacts/
+.vscode/
+.idea/
