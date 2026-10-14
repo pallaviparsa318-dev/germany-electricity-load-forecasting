@@ -4,9 +4,16 @@ Run from the project root: python -m streamlit run app/dashboard.py
 """
 from pathlib import Path
 import json
+import sys
 
 import pandas as pd
 import streamlit as st
+
+
+
+
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(PROJECT_ROOT))
 
 from src.predict import predict_next_24
 
