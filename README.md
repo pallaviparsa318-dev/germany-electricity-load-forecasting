@@ -1,5 +1,7 @@
 # Germany Electricity Load Forecasting
 
+**[Open the live Streamlit dashboard](https://germany-electricity-load-forecasting-xlsylopzbnksrezhsyskzn.streamlit.app/)** — Explore the historical 24-hour forecast, evaluation, and model comparison. The demo is not a live operational forecast.
+
 End-to-end MLOps portfolio project for **hourly German electricity-load forecasting**, using historical [SMARD](https://www.smard.de/) electricity data and [Open-Meteo](https://open-meteo.com/) weather data.
 
 **Status:** Working historical demonstration, **not a live operational forecast**. The example 24-hour forecast covers **1 January 2025**, immediately after the dataset ends.
